@@ -10,7 +10,8 @@ const unitSchema = new Schema({
     lt : Number,
     lb : Number,
     harga : Number,
-    customer : String
+    customer : String,
+    sold : Boolean
 });
 
 const Unit = mongoose.model("unit", unitSchema);
